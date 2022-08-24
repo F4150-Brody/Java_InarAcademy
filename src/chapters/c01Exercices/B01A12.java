@@ -1,4 +1,4 @@
-package bolum01.alistirmalar;
+package chapters.c01Exercices;
 
 public class B01A12 {
 	public static void main(String[] args) {
