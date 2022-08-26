@@ -3,7 +3,7 @@ package chapters.c01Exercices;
 public class B01A11 {
 	public static void main(String[] args) {
 		double sinay;
-		int curpop;
+		double curpop;
 		double biay;
 		double diay;
 		double iiay;
@@ -21,10 +21,10 @@ public class B01A11 {
 		diay = curpop / 13;           //death in a year
 		iiay = curpop / 45;           //immigrant in a year
 		
-		System.out.println("Current population is " + curpop );
+		System.out.println("Current population is " + (int)curpop );
 		
 		y1 = curpop + biay - diay + iiay;
-		System.out.println("Projection of Year-1 is " + y1 );
+		System.out.println("Projection of Year-1 is " + (int)y1 );
 		
 		
 		
