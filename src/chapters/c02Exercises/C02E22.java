@@ -1,6 +1,6 @@
 package chapters.c02Exercises;
 
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class C02E22 {
 
