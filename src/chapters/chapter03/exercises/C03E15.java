@@ -2,7 +2,7 @@ package chapters.chapter03.exercises;
 
 import java.util.Scanner;
 
-public class c03e015 {
+public class C03E15 {
 
 	public static void main(String[] args) {
 		System.out.println("WELCOME TO LOTTERY GAME");
