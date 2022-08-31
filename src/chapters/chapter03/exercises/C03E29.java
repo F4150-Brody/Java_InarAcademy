@@ -19,14 +19,14 @@ public class C03E29 {
 
 		double distanceOfCenters = Math
 				.sqrt(Math.pow(circle2CenterX - circle1CenterX, 2) + Math.pow(circle2CenterY - circle1CenterY, 2));
-		
+
 		boolean c2Inc1 = (circle1Radius - circle2Radius > distanceOfCenters);
 		boolean c1Inc2 = (circle2Radius - circle1Radius > distanceOfCenters);
 		boolean inTangent_c1 = (circle1Radius - circle2Radius == distanceOfCenters);
 		boolean inTangent_c2 = (circle2Radius - circle1Radius == distanceOfCenters);
-		boolean overlap = (circle1Radius + circle2Radius > distanceOfCenters );
+		boolean overlap = (circle1Radius + circle2Radius > distanceOfCenters);
 		boolean tangent = (circle1Radius + circle2Radius == distanceOfCenters);
-		
+
 		if (c2Inc1) {
 			System.out.println("circle2 is inside circle1");
 		} else if (c1Inc2) {
