@@ -1,5 +1,4 @@
-package chapter04.exercises;
-
+package chapters.chapter04.exercises;
 import java.util.Scanner;
 
 public class C04E04 {

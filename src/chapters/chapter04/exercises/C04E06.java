@@ -1,5 +1,4 @@
-package chapter04.exercises;
-
+package chapters.chapter04.exercises;
 public class C04E06 {
 
 	public static void main(String[] args) {
@@ -32,9 +31,7 @@ public class C04E06 {
 		a1 = Math.toDegrees(a1);
 		a2 = Math.toDegrees(a2);
 		a3 = Math.toDegrees(a3);
-		
-		System.out.println(a1 + a2 + a3);
-		
+				
 		System.out.println("Three angles in a triangle formed by random three points is " + a1 + " " + a2 + " " + a3);
 	}
 
